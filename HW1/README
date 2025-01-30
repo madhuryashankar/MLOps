@@ -1,7 +1,11 @@
 
 Model Versioning and Comparison
-===============================
+--------------------------------
 
-The most recent model (linear_regression_model_v2.pkl) incorporates two predictor variables based on feature selection, improving upon the previous version (linear_regression_model_v1.pkl), which used a single predictor. This update follows MLOps principles outlined in the project planning documents, emphasizing iterative improvements and version control.
+The most recent model (linear_regression_model_v2.pkl) incorporates two predictor variables based on feature selection, improving upon the 
+previous version (linear_regression_model_v1.pkl), which used a single predictor. This update follows MLOps principles outlined in the project 
+planning documents, emphasizing iterative improvements and version control.
 
-By leveraging multiple features, the updated model has demonstrated improved predictive performance, reflected in a higher R² score and a lower Mean Squared Error (MSE). Additionally, the project now includes structured versioning, ensuring older models remain accessible while maintaining reproducibility. These enhancements align with best practices in ML operations, reinforcing the need for ongoing model evaluation and iteration.
+By leveraging multiple features, the updated model has demonstrated improved predictive performance, reflected in a higher R² score and a lower 
+Mean Squared Error (MSE). Additionally, the project now includes structured versioning, ensuring older models remain accessible while maintaining 
+reproducibility. These enhancements align with best practices in ML operations, reinforcing the need for ongoing model evaluation and iteration.
