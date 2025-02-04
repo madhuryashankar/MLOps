@@ -7,3 +7,14 @@ This repository contains linear regression models developed using sampregdata.cs
 Model Comparison
 
 The first model is designed to be simple and interpretable, leveraging only the strongest single predictor for y. However, the second model incorporates an additional feature, resulting in improved performance and a lower Mean Squared Error (MSE). This demonstrates the trade-off between model complexity and accuracy. By maintaining version control, both models remain accessible, allowing for future iterations and comparisons based on evolving data and business needs.
+
+
+
+# MLOps - Linear Regression Models
+
+## Overview
+This repository contains linear regression models built on `sampregdata.csv`. Two models are trained using scikit-learn:
+- **Model 1**: Trained with a best single feature ('x4').
+- **Model 2**: Trained with two best features ('x4' and 'x2').
+
+## Model Comparison
