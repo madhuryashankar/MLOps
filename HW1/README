@@ -1,9 +1,9 @@
+###Linear Regression Models
 
-Model Versioning and Comparison
---------------------------------
+Overview
 
-The most recent model (linear_regression_model_v2.pkl) incorporates two predictor variables based on feature selection, improving upon the 
-previous version (linear_regression_model_v1.pkl), which used a single predictor. This update follows MLOps principles outlined in the project 
-planning documents, emphasizing iterative improvements and version control. By leveraging multiple features, the updated model has demonstrated improved predictive performance, reflected in a higher R² score and a lower 
-Mean Squared Error (MSE). Additionally, the project now includes structured versioning, ensuring older models remain accessible while maintaining 
-reproducibility. These enhancements align with best practices in ML operations, reinforcing the need for ongoing model evaluation and iteration.
+This repository contains linear regression models developed using sampregdata.csv. The models were built following MLOps best practices, ensuring proper data organization, version control, and iterative improvements. The first model is trained using a single best feature, while the second model utilizes two highly correlated features to enhance predictive performance. Both models follow a structured approach with clear versioning to support model tracking and comparison.
+
+Model Comparison
+
+The first model is designed to be simple and interpretable, leveraging only the strongest single predictor for y. However, the second model incorporates an additional feature, resulting in improved performance and a lower Mean Squared Error (MSE). This demonstrates the trade-off between model complexity and accuracy. By maintaining version control, both models remain accessible, allowing for future iterations and comparisons based on evolving data and business needs.
